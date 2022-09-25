@@ -1,0 +1,50 @@
+:root {
+  --plat-primary: #21f190;
+  --plat-secondary: #00283D;
+}
+
+.light {
+  --slidev-slide-container-background: var(--plat-secondary);
+  --background-color: white;
+  --cover-text-color: var(--plat-secondary);
+  --text-color: black;
+  --logo-image: url("/images/plt-logo.svg");
+
+}
+
+.dark {
+  --slidev-slide-container-background: var(--plat-primary);
+  --background-color: var(--plat-secondary);
+  --cover-text-color: var(--plat-primary);
+  --text-color: white;
+  --background-image: radial-gradient(at 0% 93.36%, rgba(33, 250, 144, 0.4) 0%, rgba(6, 31, 55, 0.4) 35.68%); 
+  --logo-image: url("/images/plt-logo-inverted.svg");
+}
+
+.logo {
+  background-image: var(--logo-image);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.slidev-layout.cover,
+.slidev-layout.intro {
+  @apply h-full grid;
+  background-image: var(--background-image);
+  h1 {
+    color: var(--cover-text-color);
+    @apply text-6xl leading-20;
+    font-weight: 700;
+  }
+
+  h1 + p {
+    color: var(--cover-text-color);
+    @apply -mt-2 opacity-50 mb-4;
+  }
+
+  p + h2, ul + h2, table + h2 {
+    @apply mt-10;
+  }
+}
+
