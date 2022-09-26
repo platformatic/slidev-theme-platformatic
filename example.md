@@ -3,7 +3,6 @@ theme: ./
 ---
 
 <div class="logo" />
-<!-- <img src="/images/plt-logo.svg" width="200" height="200" class="center"> -->
 
 # Platformatic Theme 
 
