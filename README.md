@@ -5,11 +5,11 @@ Supports light/dark mode.
 
 ## Usage
 
-From `npm`: install the theme in your sli.dev deck with `npm i --save slidev-theme-platformatic` or use `npm link` with a local copy of this repository. 
+From `npm`: install the theme in your sli.dev deck with `npm i --save @platformatic/slidev-theme` or use `npm link` with a local copy of this repository. 
 Then, just specify the theme on your deck
   ```md
   ---
-  theme: slidev-theme-platformatic
+  theme: @platformatic/slidev-theme
   ---
   ```
 ## Contributing
