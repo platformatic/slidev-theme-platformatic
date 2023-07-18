@@ -1,6 +1,6 @@
 # slidev-theme-platformatic
 
-Theme for [Platformatic](https://oss.platformatic.dev).
+Theme for [Platformatic](https://docs.platformatic.dev).
 Supports light/dark mode. 
 
 ## Usage
